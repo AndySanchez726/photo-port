@@ -38,7 +38,7 @@ function ContactForm() {
             <form id='contact-form' onSubmit={handleSubmit}>
             <div>
                 <label htmlFor='name'>Name:</label>
-                <input type='tetx' name='name' defaultValue={name} onBlur={handleChange} />
+                <input type='text' name='name' defaultValue={name} onBlur={handleChange} />
             </div>
             <div>
                 <label htmlFor='email'>Email address:</label>
